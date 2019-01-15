@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "compileCommands": "${workspaceFolder}/cdt-gdb-adapter/compile_commands.json"
+        },
+        {
+            "name": "Linux (Windows)",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": ["WINDOWS=1"],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "compileCommands": "${workspaceFolder}/cdt-gdb-adapter/compile_commands.json"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,26 @@
+{
+  "name": "theia-cpp-debugging",
+  "version": "0.0.0",
+  "repository": "git@github.com:marechal-p/theia-cpp-debugging.git",
+  "author": "Paul Maréchal <paul.marechal@ericsson.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "cdt-gdb-adapter",
+      "cdt-gdb-vscode",
+      "theia/packages/*",
+      "theia/dev-packages/*",
+      "theia-cpp-extension/packages/*"
+    ],
+    "nohoist": [
+      "**/@types/**"
+    ]
+  },
+  "scripts": {
+    "clean": "git clean -xfd && git submodule foreach git clean -xfd",
+    "build": "node scripts/build.js",
+    "start": "node scripts/start.js",
+    "status": "node scripts/status.js"
+  }
+}

@@ -1,0 +1,12 @@
+[submodule "theia-cpp-extension"]
+	path = theia-cpp-extension
+	url = git@github.com:marechal-p/theia-cpp-extension.git
+[submodule "cdt-gdb-adapter"]
+	path = cdt-gdb-adapter
+	url = git@github.com:marechal-p/cdt-gdb-adapter.git
+[submodule "cdt-gdb-vscode"]
+	path = cdt-gdb-vscode
+	url = git@github.com:marechal-p/cdt-gdb-vscode.git
+[submodule "theia"]
+	path = theia
+	url = https://github.com/marechal-p/theia
